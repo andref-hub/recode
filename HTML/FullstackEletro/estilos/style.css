@@ -1,9 +1,52 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+}
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+table {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    font-style: italic;
+    font-size: 1.5em;
+    transition-duration: 0.2s;
+}
+a > img {
+    margin: auto;
+    width: 100px;
+}
+a:hover > img {
+    width: 115px;
+}
+
+h2 {
+    padding: 5px;
+}
+
+div#formaspgto {
+    text-align: center;
+    padding: 10px;
 }
 
 h4 {
     color: crimson;
+    padding: 5px;
+}
+
+img#pagamento {
+    width: 20%;
 }
