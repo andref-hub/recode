@@ -50,3 +50,11 @@ h4 {
 img#pagamento {
     width: 20%;
 }
+
+footer {
+    background-color: red;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 50px;
+}
