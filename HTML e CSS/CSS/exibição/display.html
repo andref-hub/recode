@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+        .mesmaLinha {
+            display: inline;
+        }
+
+        .naoVisivel {
+            display: none;
+        }
+
+        .bloco {
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Esses</h1>
+    <p>elementos não possuem</p>
+    <p>nenhum tipo de</p>
+    <h2>estilo.</h2>
+    
+    <hr>
+    
+    <br>
+
+    <h1 class="mesmaLinha">Estes</h1>
+    <p class="mesmaLinha">outros elementos</p>
+    <p class="mesmaLinha">possuem o estilo</p>
+    <h1 class="mesmaLinha"><em>display: inline</em></h1>
+    <h1 class="naoVisivel">JÁ ESTE TEXTO GRANDE AQUI NÃO SERÁ EXIBIDO!!</h1>
+
+    <hr>
+
+    <br>
+
+    <label for="busca">Buscadores:</label>
+    <a href="http://www.google.com" target="_blank" rel="next">Google</a>
+    <a href="http://www.yahoo.com" target="_blank" rel="next">Yahoo!</a>
+    <a href="http://www.bing.com" target="_blank" rel="next">Bing</a>
+    <label for="estilo"><em>(Elementos "normais", sem estilo)</em></label>
+
+    <hr>
+
+    <br>
+
+    <label class="bloco" for="busca">Buscadores:</label>
+    <a class="bloco" href="http://www.google.com" target="_blank" rel="next">Google</a>
+    <a class="bloco" href="http://www.yahoo.com" target="_blank" rel="next">Yahoo!</a>
+    <a class="bloco" href="http://www.bing.com" target="_blank" rel="next">Bing</a>
+    <label class="bloco" for="estilo"><em>(Elementos com estilo de blocos)</em></label>
+
+</body>
+</html>
