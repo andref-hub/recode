@@ -8,6 +8,10 @@
     <title>Produtos - Fullstack Eletro</title>
 
     <style>
+        header> h2 {
+            margin-top: 10px;
+        }
+
         table#tabproduto {
             background-color: rgba(237, 237, 237, 0.747);
             font-size: 1em;
@@ -25,24 +29,16 @@
 </head>
 <body>
     <!-- MENU -->
-    <table>
-        <tr>
-            <td>
-                <a href="index.html"><img src="imagens/logo.jpeg" alt="Fullstack Eletro"></a>
-            </td>
-            <td>
-                <a href="produtos.html">Produtos</a>
-            </td>
-            <td>
-                <a href="lojas.html">Lojas</a>
-            </td>
-            <td>
-                <a href="contato.html">Contato</a>
-            </td>
-        </tr>
-    </table>
-
-    <h2>Produtos</h2>
+    <header>
+        <nav>
+            <a href="index.html"><img src="imagens/logo.jpeg" alt="Fullstack Eletro"></a>
+            <a href="produtos.html">Produtos</a>
+            <a href="lojas.html">Lojas</a>
+            <a href="contato.html">Contato</a>         
+        </nav>
+    
+        <h2>Produtos</h2>
+    </header>
     
     <hr>
     
@@ -92,7 +88,11 @@
     </div>
 
     <footer>
-        Recode Pro&copy; - Todos os Direitos Reservados
+        <p>
+            <em>
+                Recode Pro&copy; - Todos os Direitos Reservados
+            </em>
+        </p>
     </footer>
 </body>
 </html>
