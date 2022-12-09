@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas de Inclusão JS</title>
+
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .naLinha {
+            display: inline;
+            margin: 10px;
+        }
+        
+    </style>
+
+<!-- INCLUSÃO PELO ARQUIVO EXTERNO -->
+    <script src="index.js">
+
+    </script>
+</head>
+<body>
+    <h2>Conteúdo</h2>
+    <ul>
+        <li>Formatos de inclusão:</li>
+        <ul>
+            <li>No elemento</li>
+            <li>Na tag</li>
+            <li>No arquivo externo</li>
+        </ul>
+    </ul>
+
+    <br>
+
+    <hr>
+
+    <!-- INCLUSÃO NO ELEMENTO -->
+        <h3 class="naLinha">No Elemento:</h3>
+        <input class="naLinha" type="button" onclick="document.write('Este texto foi impresso pelo elemento!')" value="Clique aqui!">    
+
+    <br>
+
+    <hr>
+
+    <!-- INCLUSÃO NA TAG -->
+    <h3 class="naLinha">Na tag:</h3>
+    <script>
+        function escreve() {
+        document.write('Este texto foi impresso pela tag script!');
+        }
+    </script>
+    <button class="naLinha" onclick="escreve()">Clique aqui!</button> 
+
+    <br>
+
+    <hr>
+
+    <!-- INCLUSÃO PELO ARQUIVO EXTERNO -->
+    <h3 class="naLinha">Pelo arquivo externto:</h3>
+    <button class="naLinha" onclick="escreveExterno()">Clique aqui!</button>    
+
+    
+</body>
+</html>
